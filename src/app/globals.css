@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body{
+  color: #031725;
+}
+
 .peeps-primary{
   color: #0D4370
 }
@@ -11,13 +19,21 @@
 .peeps-tertiary{
   color: #031725;
 }
+.peeps-moss{
+  color: #677B59;
+}
 
 .peeps-primary-bg{
   background-color: #0D4370
 }
 .peeps-secondary-bg{
-  background-color: #C99665
+  background-color: #fefaf2
 }
 .peeps-tertiary-bg{
   background-color: #031725;
+}
+
+.heading-1 {
+  font-size: 60px;
+  font-weight: bold;
 }
