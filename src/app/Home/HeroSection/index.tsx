@@ -1,12 +1,12 @@
 import Image, { ImageLoader } from "next/image"
 
 const primaryButtonClass = "peeps-primary-bg text-white text-xl px-12 pt-1 pb-2 rounded-full font-semibold";
-const secondaryButtonClass = "border-2 border-black text-black text-xl px-8 pt-1 pb-2 rounded-full font-semibold";
+const secondaryButtonClass = "border border-black text-black text-xl px-8 pt-1 pb-2 rounded-full font-semibold";
 
 export const HeroSection = () => {
     return (
-        <div className="peeps-secondary-bg">
-            <div className="h-screen w-screen flex justify-evenly items-center px-40">
+        <div className="peeps-secondary-bg px-24 pb-24 pt-8">
+            <div className="h-full w-full flex justify-evenly items-center">
                 <div className="mr-10">
 
                     <h1 className="heading-1">Connecting Talent with Quality Businesses.</h1>
@@ -14,7 +14,7 @@ export const HeroSection = () => {
 
                     <div className="flex mt-4">
                         <button className={`${primaryButtonClass} mr-4`}>Contact Us</button>
-                        <button className={secondaryButtonClass}>Why Us</button>
+                        <button className={secondaryButtonClass}>Why Us?</button>
                     </div>
 
                 </div>

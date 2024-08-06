@@ -29,8 +29,14 @@ body{
 .peeps-secondary-bg{
   background-color: #fefaf2
 }
+.peeps-secondary-bg-dark{
+  background-color: #f6f0e6
+}
 .peeps-tertiary-bg{
   background-color: #031725;
+}
+.peeps-footer-bg{
+  background-color: #16140c;
 }
 
 .heading-1 {

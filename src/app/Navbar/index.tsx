@@ -1,5 +1,6 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import Image from 'next/image'
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
@@ -121,14 +122,18 @@ export function Navbar() {
     //   <hr/>
     // </Disclosure>
     <div className='fixed w-screen top-0'>
-      <div className='peeps-tertiary h-20 font-semibold peeps-secondary-bg flex justify-around items-center border-b-2'>
+      <div className='peeps-tertiary h-20 font-semibold peeps-secondary-bg flex justify-around items-center border-b'>
         <div className='flex w-1/2 justify-between'>
-          <div>PeepsForge</div>
+          
+          {/* <div><Image src='/peepsforge_logo.jpg' alt='image' width={100} height={100}/></div> */}
+          <div>PEEPS FORGE</div>
+          
           <div>Our Bussiness</div>
           <div>/</div>
           <div>About</div>
           <div>/</div>
           <div>Contact</div>
+        
         </div>
         <div className='peeps-moss'><a href='mailto:team@peepsforge.com'>team@peepsforge.com</a></div>
       </div>
