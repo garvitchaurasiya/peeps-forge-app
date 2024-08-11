@@ -19,13 +19,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {/* <div>
+        <div>
           <Navbar/>
-          </div> */}
+          </div>
         <div className="mt-20">
         {children}
         </div>
-        {/* <Footer/> */}
+        <Footer/>
         </body>
     </html>
   );

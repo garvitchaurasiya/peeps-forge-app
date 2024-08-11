@@ -22,14 +22,14 @@ export const ReturnOnInvestment = () => {
     ]
 
     return (
-        <div className='py-20 peeps-secondary-bg-dark px-24'>
+        <div className='py-20 peeps-secondary-bg-dark px-10 lg:px-24'>
             <div className='border-b mb-12 font-semibold'>RETURN ON INVESTMENT</div>
-            <div className='flex justify-between'>
-                <div className='w-2/5'>
+            <div className='lg:flex lg:justify-between'>
+                <div className='lg:w-2/5'>
                     <div className='text-4xl font-bold'>Maximise your ROI</div>
                     <p className='my-6'>You will save time and money with Peepsforge. Do not take it from us; take it from Forrester. Their Total Economic Impact™ (TEI) study showed a 286% return on investment over three years.</p>
                 </div>
-                <div className='w-2/5'>
+                <div className='lg:w-2/5'>
                     {
                         ROI_DATA.map((element, key) => {
                             return (
