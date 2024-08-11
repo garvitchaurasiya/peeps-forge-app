@@ -1,11 +1,11 @@
 import Image, { ImageLoader } from "next/image"
 
-const primaryButtonClass = "peeps-primary-bg text-white text-xl px-8 pt-1 pb-2 rounded-full font-semibold";
-const secondaryButtonClass = "border border-black text-black text-xl px-6 pt-1 pb-2 rounded-full font-semibold";
+const primaryButtonClass = "peeps-primary-bg text-white text-md md:text-xl px-8 pt-1 pb-2 rounded-full font-semibold";
+const secondaryButtonClass = "border border-black text-black text-md md:text-xl px-6 pt-1 pb-2 rounded-full font-semibold";
 
 export const HeroSection = () => {
     return (
-        <div className="peeps-secondary-bg px-10 pt-8 lg:px-24 lg:pb-24 lg:pt-8">
+        <div className="peeps-secondary-bg px-10 pt-6 pb-16 lg:px-24 lg:pb-24 lg:pt-8">
             <div className="h-full w-full flex justify-evenly items-center">
                 {/* style={{backgroundImage: 'url(/meeting_room.svg)', opacity: 0}} */}
                 <div className="w-full z-10">
