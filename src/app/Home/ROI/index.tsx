@@ -5,12 +5,12 @@ export const ReturnOnInvestment = () => {
 
     const ROI_DATA = [
         {
-            source: '/image_resources/Home/hourglass.svg',
+            source: '/image_resources/Home/clock.svg',
             heading: 'Improve time to value',
             description: 'Peepsforge works out of the box. Solve customer problems right away, rather than configuring complex software.'
         },
         {
-            source: '/image_resources/Home/feather.svg',
+            source: '/image_resources/Home/dove_bird.svg',
             heading: 'Improve time to value',
             description: 'Peepsforge works out of the box. Solve customer problems right away, rather than configuring complex software.'
         },
@@ -26,8 +26,13 @@ export const ReturnOnInvestment = () => {
             <div className='border-b mb-12 font-semibold px-10 lg:px-0'>RETURN ON INVESTMENT</div>
             <div className='lg:flex lg:justify-between'>
                 <div className='lg:w-2/5 px-10 lg:px-0'>
+                <div>
                     <div className='text-3xl lg:text-4xl font-bold'>Maximise your ROI</div>
                     <p className='my-6'>You will save time and money with Peepsforge. Do not take it from us; take it from Forrester. Their Total Economic Impact™ (TEI) study showed a 286% return on investment over three years.</p>
+                </div>
+                <div className='flex justify-center my-14 lg:mt-20'>
+                    <Image src={'./image_resources/Home/ROI.svg'} alt='image' height={300} width={300}/>
+                </div>
                 </div>
                 <div className='lg:w-2/5 px-6'>
                     {
