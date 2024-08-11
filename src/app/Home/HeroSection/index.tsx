@@ -7,7 +7,7 @@ export const HeroSection = () => {
     return (
         <div className="peeps-secondary-bg px-10 pt-6 pb-16 lg:px-24 lg:pb-24 lg:pt-8">
             <div className="h-full w-full flex justify-evenly items-center">
-                {/* style={{backgroundImage: 'url(/meeting_room.svg)', opacity: 0}} */}
+
                 <div className="w-full z-10">
 
                     <h1 className="heading-2 lg:heading-1">Connecting Talent with Quality Businesses.</h1>
@@ -19,7 +19,7 @@ export const HeroSection = () => {
                     </div>
 
                 </div>
-                <div className="w-full px-16 absolute opacity-30 top-20">
+                <div className="w-full px-16 absolute opacity-50 top-20 lg:static lg:opacity-100">
                     <Image src='/meeting_room.svg' alt='image' layout="responsive" height={100} width={100} />
                 </div>
 

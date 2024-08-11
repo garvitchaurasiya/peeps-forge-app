@@ -14,12 +14,12 @@ export function Navbar() {
   const [showNavbarOptions, setShowNavbarOptions] = useState(false)
 
   return (
-    <div className='fixed z-20 w-screen top-0 px-6 peeps-secondary-bg'>
+    <div className='fixed z-20 w-screen top-0 px-6 lg:px-20 peeps-secondary-bg'>
       <div className='peeps-tertiary h-20 font-semibold flex justify-between items-center border-b'>
 
         <div className='md:hidden'>
 
-          <div className='border-2 p-2 rounded cursor-pointer animation-drop' onClick={()=>{setShowNavbarOptions(!showNavbarOptions)}}>
+          <div className='border-2 p-2 rounded cursor-pointer animation-drop' onClick={() => { setShowNavbarOptions(!showNavbarOptions) }}>
             <RiMenuUnfoldFill />
           </div>
 
@@ -53,7 +53,7 @@ export function Navbar() {
         <div className='peeps-moss'><a href='mailto:team@peepsforge.com'>team@peepsforge.com</a></div>
       </div>
 
-      <div className={`peeps-secondary-bg ${(showNavbarOptions)?'block':'hidden'}`}>
+      <div className={`peeps-secondary-bg ${(showNavbarOptions) ? 'block' : 'hidden'}`}>
         <div className='flex items-center p-4 border-b'>
           <Link href={'./Business'}>Our Bussiness</Link>
         </div>
