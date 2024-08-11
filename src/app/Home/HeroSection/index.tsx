@@ -18,8 +18,8 @@ export const HeroSection = () => {
                     </div>
 
                 </div>
-                <div className="w-full">
-                    <Image src='/meeting_room.jpg' alt='image' layout="responsive" height={100} width={100} />
+                <div className="w-full p-16">
+                    <Image src='/meeting_room.svg' alt='image' layout="responsive" height={100} width={100} />
                 </div>
             </div>
 

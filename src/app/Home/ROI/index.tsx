@@ -5,27 +5,17 @@ export const ReturnOnInvestment = () => {
 
     const ROI_DATA = [
         {
-            source: '/image_resources/hourglass.svg',
+            source: '/image_resources/Home/hourglass.svg',
             heading: 'Improve time to value',
             description: 'Peepsforge works out of the box. Solve customer problems right away, rather than configuring complex software.'
         },
         {
-            source: '/image_resources/5.png',
+            source: '/image_resources/Home/feather.svg',
             heading: 'Improve time to value',
             description: 'Peepsforge works out of the box. Solve customer problems right away, rather than configuring complex software.'
         },
-        // {
-        //     source: '/image_resources/1.svg',
-        //     heading: 'Improve time to value',
-        //     description: 'Peepsforge works out of the box. Solve customer problems right away, rather than configuring complex software.'
-        // },
-        // {
-        //     source: '/image_resources/2.svg',
-        //     heading: 'Improve time to value',
-        //     description: 'Peepsforge works out of the box. Solve customer problems right away, rather than configuring complex software.'
-        // },
         {
-            source: '/image_resources/4.svg',
+            source: '/image_resources/Home/money.svg',
             heading: 'Improve time to value',
             description: 'Peepsforge works out of the box. Solve customer problems right away, rather than configuring complex software.'
         }

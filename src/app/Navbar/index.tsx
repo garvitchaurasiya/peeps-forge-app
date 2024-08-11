@@ -1,6 +1,7 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const navigation = [
   { name: 'Dashboard', href: '#', current: true },
@@ -124,19 +125,32 @@ export function Navbar() {
     <div className='fixed w-screen top-0'>
       <div className='peeps-tertiary h-20 font-semibold peeps-secondary-bg flex justify-around items-center border-b'>
         <div className='flex w-1/2 justify-between'>
-          
-          {/* <div><Image src='/peepsforge_logo.jpg' alt='image' width={100} height={100}/></div> */}
-          <div>PEEPS FORGE</div>
-          
-          <div>Our Bussiness</div>
-          <div>/</div>
-          <div>About</div>
-          <div>/</div>
-          <div>Contact</div>
-        
+
+          <div>
+            <Link href={'./'}>
+              <Image src='/image_resources/peeps_forge_logo.svg' alt='image' width={40} height={40} />
+            </Link>
+          </div>
+
+          <div className='flex items-center'>
+            <Link href={'./Business'}>Our Bussiness</Link>
+          </div>
+
+          <div className='flex items-center'>/</div>
+
+          <div className='flex items-center'>
+            <Link href={'./About'}>About</Link>
+          </div>
+
+          <div className='flex items-center'>/</div>
+
+          <div className='flex items-center'>
+            <Link href={'./Contact'}>Contact</Link>
+          </div>
+
         </div>
         <div className='peeps-moss'><a href='mailto:team@peepsforge.com'>team@peepsforge.com</a></div>
       </div>
-    </div>
+    </div >
   )
 }
