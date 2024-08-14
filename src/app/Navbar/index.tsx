@@ -53,7 +53,11 @@ export function Navbar() {
         <div className='peeps-moss'><a href='mailto:team@peepsforge.com'>team@peepsforge.com</a></div>
       </div>
 
-      <div className={`peeps-secondary-bg ${(showNavbarOptions) ? 'block' : 'hidden'}`}>
+      <div className={`lg:hidden peeps-secondary-bg ${(showNavbarOptions) ? 'block' : 'hidden'}`}>
+        <div className='flex items-center p-4 border-b'>
+          <Link href={'./'}>Home</Link>
+        </div>
+
         <div className='flex items-center p-4 border-b'>
           <Link href={'./Business'}>Our Bussiness</Link>
         </div>

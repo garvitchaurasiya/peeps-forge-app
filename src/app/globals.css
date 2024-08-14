@@ -56,6 +56,10 @@ body {
   font-weight: bold;
 }
 
+.heading-3 {
+  font-size: 40px;
+  font-weight: bold;
+}
 
 .nav-dropdown {
   /* background: #ddd; */
