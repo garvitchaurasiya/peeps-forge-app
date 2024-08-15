@@ -3,7 +3,7 @@ import React from 'react'
 
 export const BusinessStepCard = ({ stepNumber, title, description, imageSource }: { stepNumber: number; title: string; description: string; imageSource: string }) => {
 
-    let x = {
+    let cardsRelativeMargin = {
         1: 150,
         2: 80,
         3: 50,
@@ -12,7 +12,7 @@ export const BusinessStepCard = ({ stepNumber, title, description, imageSource }
     }
 
     return (
-        <div className={` w-fit relative py-4`} style={{right: `${x[stepNumber]}px`}}>
+        <div className={` w-fit relative py-4`} style={{ right: `${cardsRelativeMargin[stepNumber as keyof typeof cardsRelativeMargin]}px` }}>
             <div style={{ 'backgroundColor': '#c6b7e0' }} className='h-16 w-16 rounded-full absolute bottom-28 right-8 flex justify-center items-center font-bold'> {'0' + stepNumber} </div>
 
             <div className='bg-white rounded-lg h-36 w-96 flex items-center'>
