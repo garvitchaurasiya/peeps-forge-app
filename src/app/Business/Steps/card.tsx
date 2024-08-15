@@ -16,7 +16,7 @@ export const BusinessStepCard = ({ stepNumber, title, description, imageSource }
             <div style={{ 'backgroundColor': '#c6b7e0' }} className='h-16 w-16 rounded-full absolute bottom-28 right-8 flex justify-center items-center font-bold'> {'0' + stepNumber} </div>
 
             <div className='bg-white rounded-lg h-36 w-96 flex items-center'>
-                <div className=''><Image src={imageSource} alt='image' width={100} height={100} /></div>
+                <div className='p-6'><Image src={imageSource} alt='image' width={100} height={100} /></div>
 
                 <div className='w-2/3 z-10'>
                     <div className='text-md font-bold'>{title}</div>

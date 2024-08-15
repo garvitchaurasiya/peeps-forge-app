@@ -4,7 +4,7 @@ import { BusinessSteps } from "./Steps";
 
 const Business = () => {
     return (
-        <div className="peeps-secondary-bg px-24 pb-24 pt-8">
+        <div>
             <BusinessHeroSection />
             <BusinessSteps />
         </div>
