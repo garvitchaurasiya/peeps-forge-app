@@ -15,7 +15,7 @@ body {
 }
 
 .peeps-secondary {
-  color: #C99665
+  color: #fefaf2
 }
 
 .peeps-tertiary {
@@ -76,6 +76,14 @@ body {
   height: 200px;
   opacity: 1;
   transform: translateY(50);
+}
+
+label {
+  font-weight: 600;
+}
+
+input{
+  padding: 4px 8px
 }
 
 @keyframes bounce {

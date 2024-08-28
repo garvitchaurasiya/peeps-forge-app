@@ -21,7 +21,7 @@ export const Footer = () => {
 
                     <div className="flex items-center">
                         <div className="border rounded-full p-1 mx-2"> <FaWhatsapp /></div>
-                        <span className="text-sm">+91-7427832725</span>
+                        <span className="text-sm">+91-9571045113</span>
                     </div>
                 </div>
 
